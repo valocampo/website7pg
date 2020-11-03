@@ -10296,47 +10296,34 @@ body {
     max-width: 30rem;
     font-size: 1.25rem;
   }
-}
+} 
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to top, #2C2C2C 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: url("../assets/img/seven-brown.svg"), linear-gradient(to top, #2C2C2C 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background-position: 75%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  padding: top 5rem;
 }
 .about-section p {
   margin-bottom: 5rem;
 }
-
-.projects-section {
-  padding: 10rem 0;
-}
-.projects-section .featured-text {
-  padding: 2rem;
-}
-@media (min-width: 992px) {
-  .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #B59261;
-  }
-}
-.projects-section .project-text {
-  padding: 3rem;
-  font-size: 90%;
-}
-@media (min-width: 992px) {
-  .projects-section .project-text {
-    padding: 5rem;
-  }
-  .projects-section .project-text hr {
-    border-color: #B59261;
-    border-width: 0.25rem;
-    width: 30%;
+@media (max-width: 480px) {
+  .about-section {
+  background: url("../assets/img/seven-brown.svg"), linear-gradient(to top, #2C2C2C 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background-position: 75% 35%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 50%, auto;
   }
 }
 
 .apply-section {
   position: relative;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .apply-section .apply-section-content .apply-section-title {
   font-size: 2.5rem;
@@ -10355,6 +10342,34 @@ body {
           justify-content: center;
 }
 .apply-section .apply-section-content .apply-section-signup .form-control {
+  font-size: 0.875em;
+  padding: 0 1.5rem;
+  height: 2.725rem;
+  line-height: 1.5;
+}
+
+.application-section {
+  position: relative;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.application-section .application-section-content .application-section-title {
+  font-size: 2.5rem;
+  color:#ffffff;
+}
+.application-section .application-section-content .application-section-text {
+  padding-bottom: 3rem;
+  font-size: 1.15rem;
+  color:#737373;
+}
+.application-section .application-section-content .application-section-text.small {
+  font-size: 0.9rem;
+}
+.application-section .application-section-content .application-section-signup {
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+.application-section .application-section-content .application-section-signup .form-control {
   font-size: 0.875em;
   padding: 0 1.5rem;
   height: 2.725rem;
