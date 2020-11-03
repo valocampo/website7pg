@@ -542,8 +542,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 0.25rem;
-  padding-left: 0.25rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -565,6 +565,35 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
+    max-width: 1140px;
+  }
+}
+
+.container-application {
+  width: 100%;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-application {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-application {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-application {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-application {
     max-width: 1140px;
   }
 }
@@ -2011,6 +2040,16 @@ pre code {
 }
 .table-responsive > .table-bordered {
   border: 0;
+}
+
+#ApplicationCheckboxList label {
+  float: left;
+}
+#ApplicationCheckboxList ul {
+  margin: 0;
+  list-style: none;
+  float: left;
+  padding-bottom: 1.5rem;
 }
 
 .form-control {
@@ -4450,6 +4489,13 @@ input[type=button].btn-block {
 }
 
 .card-body {
+  -webkit-box-flex: 1;
+          flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card-body-application {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 3.5rem;
@@ -4462,6 +4508,8 @@ input[type=button].btn-block {
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 .card-text:last-child {
