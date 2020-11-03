@@ -542,8 +542,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -4452,7 +4452,7 @@ input[type=button].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.35rem;
+  padding: 3.5rem;
 }
 
 .card-title {
@@ -10300,7 +10300,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: url("../assets/img/seven-brown.svg"), linear-gradient(to top, #2C2C2C 0%, rgba(0, 0, 0) 75%, rgba(0, 0, 0) 100%);
+  background: url("../assets/img/seven-brown-65op.svg"), linear-gradient(to top, #2C2C2C 0%, rgba(0, 0, 0) 75%, rgba(0, 0, 0) 100%);
   background-position: 75%;
   background-repeat: no-repeat;
   background-attachment: scroll;
